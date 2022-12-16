@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-logo{
+    display: flex;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+.logo{
+    max-width: 80px;
+}
+.nav{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+    padding-top: 3rem;
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.faq{
+    padding: 2rem;
+}
+h2{
+    padding-top: 1rem;
+    padding-bottom: 1rem ;
+}
+
+h3{
+    padding-top: 1rem;
+    padding-bottom: 1rem ;
+}
