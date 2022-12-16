@@ -76,8 +76,8 @@
     <main>
         <div class="faq">
             <?php
-                foreach ($faqArr as $key => $value) {
-                    foreach ($faqArr[$key] as $key => $value) {
+                foreach ($faqArr as $faq) {
+                    foreach ($faq as $value) {
                         echo $value;
                     };
                 };    
